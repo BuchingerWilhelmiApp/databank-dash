@@ -1,0 +1,29 @@
+#logo{
+    height : 60px; 
+
+}
+body{
+    padding:10px
+}
+
+.style-special {
+    font-weight: bold;
+  }
+
+.style-special::after{
+    padding: 10px;
+
+    content: "✅"; /* Ajoute une icône de case cochée */
+    font-size: 10px; /* Ajuste la taille de l'icône si nécessaire */
+    margin-left: 5px; /* Espace entre le texte et l'icône */
+}
+
+.not-special:after {
+    padding: 10px;
+    font-size: 10px; /* Ajuste la taille de l'icône si nécessaire */
+
+    content: "❌"; /* Ajoute une icône de case cochée */
+    margin-left: 5px; /* Espace entre le texte et l'icône */
+
+}
+
