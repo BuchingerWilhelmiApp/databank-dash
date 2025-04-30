@@ -58,6 +58,12 @@ def layout():
                 ),
                 
                 dcc.Graph(id='graph-1', config=config),
+                dmc.Text(
+                    """Over 500 parameters are available in total, measured in around 3,000 participants. 
+                    Some parameters appear in several studies, while others, more specific, 
+                    are present in only one.""",                    
+                    size="sm",
+                )
                 
             ])
         ]
