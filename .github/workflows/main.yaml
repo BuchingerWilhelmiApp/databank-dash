@@ -40,7 +40,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_CHECKOUTTOKEN }}
           RUN_NUMBER: ${{ github.sha }}
-          MAILGUN_API_KEY: ${{ secrets.MAILGUN_API_KEY }}
         run: |
           git clone https://user:$GITHUB_TOKEN@github.com/BuchingerWilhelmiApp/BWClusterConfig
 
