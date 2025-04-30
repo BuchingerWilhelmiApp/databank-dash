@@ -1,0 +1,7 @@
+dash>=3.0.0
+pandas
+numpy
+plotly
+scipy
+dash-mantine-components
+pyarrow 
